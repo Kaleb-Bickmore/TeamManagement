@@ -1,7 +1,8 @@
 # TeamManagement
 Project for Team Management website using React.js and Django backend.<br/>
 ## React
-run `npm install` and this should install all neccesary packages.<br/>
+Node.js is required<br/>
+run `npm install` inside the frontend directory, this should install all neccesary packages.<br/>
 to start a local server run 'npm start' 
 ## Django
 the packages are maintains using a pipenv. there is also a requirements.txt file that can be used to install the neccesary packages.<br/>
