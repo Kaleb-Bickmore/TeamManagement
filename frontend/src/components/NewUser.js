@@ -53,9 +53,9 @@ class NewUser extends Component{
     
     const formData = new FormData()
     const data = {address: this.state.address, color: this.state.color, department: this.state.department, 
-      emailaddress: this.state.emailaddress, end: "0001-01-01", history: "[]", manager: this.state.manager, 
+      emailaddress: this.state.emailaddress, end: "N/A", history: "[]", manager: this.state.manager, 
       name: this.state.name, permissions: this.state.permission, phonenumber: this.state.phonenumber, 
-      photo: this.state.photoFile, position: this.state.position, shift: this.state.shift, start: moment().format("YYYY-DD-MM"),
+      photo: this.state.photoFile, position: this.state.position, shift: this.state.shift, start: moment().format("MM-DD-YYYY"),
       status: "Employed"};
     
       for (const [key, value] of Object.entries(data)) {

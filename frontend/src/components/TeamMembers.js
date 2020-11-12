@@ -68,7 +68,7 @@ function dateFormatter(cell){
   if (typeof cell !== 'object') {
     dateObj = new Date(cell);
   }
-  return `${('0' + dateObj.getUTCDate()).slice(-2)}/${('0' + (dateObj.getUTCMonth() + 1)).slice(-2)}/${dateObj.getUTCFullYear()}`;
+  return `${('0' + (dateObj.getUTCMonth() + 1)).slice(-2)}/${('0' + dateObj.getUTCDate()).slice(-2)}/${dateObj.getUTCFullYear()}`;
 }
 const sizePerPageRenderer = ({
   options,

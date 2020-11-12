@@ -106,7 +106,11 @@ const url = 'http://localhost:8000/api/users/';
       this.state.teamMembers.forEach((row,index)=>{
         var now = moment();
         var employeeDate = moment(row.start);
-        if(employeeDate.isoWeek()===now.isoWeek()&& now.isSame(employeeDate,'year')){
+        console.log(now.isSame(employeeDate,'year'))
+        console.log(employeeDate.isoWeek())
+        console.log(now.isoWeek())
+
+        if(employeeDate.isoWeek()==now.isoWeek()&& now.isSame(employeeDate,'year')){
           count+=1;
         }
       });
