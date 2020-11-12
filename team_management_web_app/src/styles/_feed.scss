@@ -1,0 +1,27 @@
+.feed-container {
+  background-color: lightgrey !important;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.date {
+  font-style: italic;
+}
+.event {
+  border-bottom: $brand-secondary solid 1px;
+  margin-bottom: 15px;
+  > .label {
+    > img {
+      height: 50px;
+      border-radius: 50px;
+    }
+  }
+}
+
+.activity-view {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  padding: 20px;
+}

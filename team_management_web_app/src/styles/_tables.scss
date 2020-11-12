@@ -1,0 +1,111 @@
+.header-class {
+  background-color: $brand-primary;
+  color: white;
+}
+.table {
+  overflow-wrap: anywhere;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+.react-bootstrap-table-pagination-list {
+  display: block;
+  margin: 0px 0px;
+}
+.react-bootstrap-table-pagination {
+  margin: 0px 0px !important;
+}
+.deleteButton {
+  background-color: #dc143c !important;
+  &.Mui-disabled {
+    background-color: darkgrey !important;
+  }
+  &:hover {
+    background-color: lighten(#dc143c, 10%) !important;
+  }
+  &:active {
+    background-color: darken(#dc143c, 10%) !important;
+  }
+}
+
+.addButton {
+  background-color: #90ee90 !important;
+  &:hover {
+    background-color: lighten(#90ee90, 10%) !important;
+  }
+  &:active {
+    background-color: darken(#90ee90, 10%) !important;
+  }
+}
+.btn-primary {
+  background-color: $brand-primary !important;
+  border: $brand-primary !important;
+  &:hover {
+    background-color: lighten($brand-primary, 10%) !important;
+    border: lighten($brand-primary, 10%) !important;
+  }
+  &:active {
+    background-color: darken($brand-primary, 10%) !important;
+    border: darken($brand-primary, 10%) !important;
+  }
+}
+.btn-secondary {
+  background-color: $brand-secondary !important;
+  border: $brand-secondary !important;
+  &:hover {
+    background-color: lighten($brand-secondary, 10%) !important;
+    border: lighten($brand-secondary, 10%) !important;
+  }
+  &:active {
+    background-color: darken($brand-secondary, 10%) !important;
+    border: darken($brand-secondary, 10%) !important;
+  }
+}
+.page-item {
+  > .page-link {
+    background-color: $brand-primary !important;
+    border: $brand-primary !important;
+    color: white !important;
+    &:hover {
+      background-color: lighten($brand-primary, 10%) !important;
+      border: lighten($brand-primary, 10%) !important;
+    }
+    &:active {
+      background-color: darken($brand-primary, 10%) !important;
+      border: darken($brand-primary, 10%) !important;
+    }
+  }
+  &.active {
+    > .page-link {
+      background-color: $brand-secondary !important;
+      border: $brand-secondary;
+      color: white;
+      &:hover {
+        background-color: lighten($brand-secondary, 10%);
+        border: lighten($brand-secondary, 10%);
+      }
+      &:active {
+        background-color: darken($brand-secondary, 10%);
+        border: darken($brand-secondary, 10%);
+      }
+    }
+  }
+}
+
+.permissions-table {
+  margin: 40px 40px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+}
+.team-member-table {
+  margin: 40px 40px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  overflow-x: scroll;
+  overflow-y: auto;
+}
+th.expand-cell-header {
+  min-width: 35px !important;
+}

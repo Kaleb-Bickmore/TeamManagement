@@ -1,0 +1,11 @@
+// Override default variables before the import
+@import "variables";
+@import "tables";
+@import "navbar";
+@import "cards";
+@import "feed";
+@import "form";
+@import "view";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

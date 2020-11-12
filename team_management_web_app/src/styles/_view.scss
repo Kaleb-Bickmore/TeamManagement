@@ -1,0 +1,25 @@
+.view-title {
+  box-shadow: 5px 5px 10px $border-color;
+  margin-bottom: 20px;
+  background-color: $brand-primary !important;
+  color: white !important;
+  padding: 0px 0px;
+}
+.view-header {
+  box-shadow: 0px 8px 12px #222;
+}
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+}
+
+.compact-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
